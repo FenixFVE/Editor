@@ -2,7 +2,9 @@
 node_modules/
 
 # Do not ignore the 'db' and 'db/files' directories themselves
-!db/files/.gitkeep
+!/db/
+!/db/files/
+!/db/files/.gitignore
 
 # Database files inside the 'db' folder
 db/*.db
