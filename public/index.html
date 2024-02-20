@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code editor</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <!-- CodeMirror CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.0/codemirror.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.0/theme/monokai.min.css">
+    <!-- CodeMirror JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.0/mode/python/python.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.0/addon/lineNumbers/lineNumbers.min.js"></script>
+</head>
+<body>
+    <div id="app"  class="center">
+        <div id="userInfo">Please Login</div>
+        <button id="loginBtn">Login</button>
+        <button id="registerBtn">Register</button>
+        <button id="logoutBtn" style="display: none;">Logout</button>
+        <button id="deleteUserBtn" style="display: none;">Delete User</button>
+        <div id="notepad"></div>
+        <button id="saveBtn">Save</button>
+    </div>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeLogin">&times;</span>
+            <h2>Login</h2>
+            <input type="text" id="loginUsername" placeholder="Username" required>
+            <input type="password" id="loginPassword" placeholder="Password" required>
+            <button id="loginButton">Login</button>
+            <div id="loginError" class="error"></div>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div id="registerModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeRegister">&times;</span>
+            <h2>Register</h2>
+            <input type="text" id="registerUsername" placeholder="Username" required>
+            <input type="password" id="registerPassword" placeholder="Password" required>
+            <button id="registerButton">Register</button>
+            <div id="registerError" class="error"></div>
+        </div>
+    </div>
+
+    <!-- Message Modal -->
+    <div id="messageModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeMassage">&times;</span>
+            <p id="messageText" style="text-align: center;"></p>
+        </div>
+    </div> 
+</body>
+</html>

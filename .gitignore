@@ -1,0 +1,12 @@
+# Node modules
+node_modules/
+
+# Do not ignore the 'db' and 'db/files' directories themselves
+!db/files/.gitkeep
+
+# Database files inside the 'db' folder
+db/*.db
+db/*.sqlite
+
+# Ignore all files in the 'db/files' directory
+db/files/*
