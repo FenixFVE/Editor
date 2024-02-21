@@ -2,6 +2,8 @@
 
 Федоров В.Е. ПМ-04
 
+[Задания](https://docs.google.com/document/d/18_FjXRwT2bI6C7pi3LjRDNZrfZ72d80pdSqeV0Srsw0/edit?usp=sharing)
+
 ![Editor](./other/Editor.png)
 
 [Railways.app хостинг](https://editor-production-1614.up.railway.app/)
