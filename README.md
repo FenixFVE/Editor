@@ -1,6 +1,6 @@
 # Онлкйн редактор кода
 
-####Федоров В.Е. ПМ-04
+Федоров В.Е. ПМ-04
 
 ![Editor](./other/Editor.png)
 
@@ -12,7 +12,7 @@
 
 [Макет](https://www.figma.com/proto/dRPJXVt8BsXN5K4xdME5oL/Editor?node-id=104-3&mode=design&t=p8RwjkHNoaUW4KgJ-1)
 
-#Задания по CodePen:
+Задания по CodePen:
 
 [Часть 1](https://codepen.io/collection/gYGKNv)
 [Часть 2](https://codepen.io/collection/Exwpzm)
