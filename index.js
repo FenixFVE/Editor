@@ -164,11 +164,10 @@ app.get('/load', async (req, res) => {
             ? path.join('db', 'files', `${req.session.username}.txt`) 
             : defaultFilename;
         
-        // Await on the promise returned by fs.promises.readFile
         const data = await fs.promises.readFile(filePath, 'utf8');
         res.send(data);
     } catch (err) {
-        console.error(err); // Logging the error can help in debugging
+        console.error(err); 
         res.status(500).send('Error reading file');
     }
 });
@@ -179,10 +178,10 @@ app.post('/save', async (req, res) => {
     const filePath = req.session.username ? path.join('db', 'files', `${req.session.username}.txt`) : defaultFilename;
   
     try {
-      await fs.promises.writeFile(filePath, text, 'utf8'); // Write the file with UTF-8 encoding
+      await fs.promises.writeFile(filePath, text, 'utf8'); 
       res.send('File saved successfully');
     } catch (err) {
-      console.error(err); // Log the error for debugging
+      console.error(err); 
       res.status(500).send('Error saving file');
     }
 });
