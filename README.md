@@ -1,10 +1,15 @@
 # Онлкйн редактор кода
 
-Федоров В.Е. ПМ-04
-
-[Задания](https://docs.google.com/document/d/18_FjXRwT2bI6C7pi3LjRDNZrfZ72d80pdSqeV0Srsw0/edit?usp=sharing)
+Федоров В.Е. ПМ-04 
 
 ![Editor](./other/Editor.png)
+
+Для запуска просто введите в консоль:
+```
+npm run start
+```
+
+[Задания](https://docs.google.com/document/d/18_FjXRwT2bI6C7pi3LjRDNZrfZ72d80pdSqeV0Srsw0/edit?usp=sharing)
 
 [Railways.app хостинг](https://editor-production-1614.up.railway.app/)
 
